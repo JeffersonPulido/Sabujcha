@@ -22,6 +22,9 @@ Para desplegar este proyecto:
 
 https://sabujchate.netlify.app
 
+## Trello
+
+https://trello.com/invite/b/NnXgDPmE/8193deb64b43d01923fb2f8263730268/sabujcha
 
 ## Authors
 
