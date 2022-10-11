@@ -11,45 +11,44 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--CDN FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-=======
     <!--****** navbar ******-->
-    <nav>
-        <!-- navContainer -->
-        <div class="navContainer">
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="Logo Sabujcha">
-            </div>
-            <div class="botonesMenu">
-                <div class="moneda">
-                    <p>USD
-                        <a href="#"><img width="15px" src="assets/img/iconFlecha.png" alt="">
-                        </a>
-                    </p>
-                </div>
-                <div class="menuHamburguesa">
-                    <label class="clicMenu navLabel" for="menu">
-                    <img width="25px" src="assets/img/menuHamburguesa.png" alt="menu">
-                    </label>
-                    <input type="checkbox" id="menu" class="nav_input">
-
-                    <div class="nav_menu">
-                        <a href="#" class="nav_item">HOME</a>
-                        <a href="#" class="nav_item">ABOUT</a>
-                        <a href="#" class="nav_item">BLOG</a>
-                        <a href="#" class="nav_item">PAGES</a>
-                        <a href="#" class="nav_item">CONTACT</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End navContainer -->
-    </nav>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link"><img src="assets/img/logo.png" alt=""></a>
+            <button class="nav-togglecart" aria-label="Abrir menú">
+                <span class="money">USD</span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-cart-shopping cart"></i>
+            </button>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">Blog</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">Videos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">Sobre mí</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <!--****** End navbar ******-->
-    <!--Banner-->
+    <!--****** Banner ******-->
     <div class="banner-container">
         <img src="assets/img/slider-2.jpg" class="responsive" alt="">
     </div>
+    <!--****** End Banner ******-->
+    <script src="assets/js/app.js"></script>
+</body>
 </html>
