@@ -7,7 +7,7 @@
 :root {
     /* COLORES */
     --tipografia_gris: #575757;
-    --tipografia_negro: #333333;
+    --tipografia_negro: #000000;
     --label: #529F0F;
     --hover: #529F0F;
     /* FONTS */
@@ -24,12 +24,53 @@ html, body{
 }
 
 /* BANNER */
-.responsive {
-    max-width: auto;
-    height: 100%;
-  }
-
-
+.banner-container{
+    display: flex;
+    height:100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/slider-2.jpg");
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-top: -25vh;
+    padding: 0% 10% 0% 10%;
+    width: 100vh;
+}
+.p-title{
+    font-size: 3.5vh;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: var(--tipografia_negro);
+    font-family: var(--titulo);
+    font-weight: 300;
+}
+.btn-shop-container{
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.btn-shop{
+    text-decoration: underline;
+    color: var(--tipografia_negro);
+    font-family: var(--titulo_producto);
+    font-weight: 500;
+    font-size: 2.8vh;
+    transition: 0.5s all;
+}
+.btn-shop:hover{
+    color: white;
+    transition: 0.5s all;
+}
 /*******************  navbar ****************/
 .header {
 background-color: white;
@@ -66,11 +107,13 @@ order: -1;
 }
 
 .nav-menu-item {
-font-size: 18px;
+font-size: 13px;
+font-weight: 500;
 margin: 0 10px;
 line-height: 2rem;
 text-transform: uppercase;
 width: max-content;
+font-family: var(--titulo);
 }
 
 .nav-menu-link {
@@ -80,8 +123,6 @@ color: var(--tipografia_negro);
 font-family: var(--titulo);
 }
 
-
-/* TOGGLE */
 .nav-toggle {
 color: var(--tipografia_negro);
 background: none;
@@ -98,7 +139,7 @@ color: var(--tipografia_negro);
 background: none;
 border: none;
 border-radius: 4px;
-margin: 15px 10px 30px 10px;
+margin: 20px 10px 30px 10px;
 font-size: 15px;
 cursor: pointer;
 display: flex;
@@ -161,6 +202,9 @@ display: flex;
     position: relative;
     right: -2vh;
     font-family: var(--titulo);
+}
+.nav-togglecart .cart{
+    margin-right: 0;
 }
 .nav-menu_visible {
     left: 0;
