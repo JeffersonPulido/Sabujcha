@@ -16,6 +16,19 @@
     --titulo_producto: 'Work Sans', sans-serif;
 }
 
+/*INIT*/
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* BANNER */
+.responsive {
+    max-width: auto;
+    height: 100%;
+  }
+
 
 /*******************  navbar ****************/
 
@@ -70,3 +83,4 @@
 
 
 /******************* End navbar ****************/
+
