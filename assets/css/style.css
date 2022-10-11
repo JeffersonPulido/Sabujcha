@@ -1,6 +1,9 @@
 /*====  FONTS GOOGLE ====*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
 /*==== VARIABLES GLOBALES ====*/
+
 :root {
     /* COLORES */
     --tipografia_gris: #575757;
@@ -25,3 +28,59 @@ html, body{
     max-width: auto;
     height: 100%;
   }
+
+
+/*******************  navbar ****************/
+
+.navContainer {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.botonesMenu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    align-items: center;
+}
+
+.clicMenu {
+    cursor: pointer;
+}
+
+.moneda {
+    order: 1px solid rgb(25, 143, 2);
+    align-items: center;
+    padding-right: 30px;
+}
+
+.moneda a {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.moneda a img {
+    bottom: 0px;
+}
+
+
+/* navmenuHamburguesa */
+
+.nav_input:checked+.nav_menu {
+    background: #529F0F;
+}
+
+.nav_menu {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav_item {
+    color: white;
+}
+
+
+/******************* End navbar ****************/
+
