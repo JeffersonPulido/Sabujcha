@@ -107,6 +107,7 @@ body {
   text-align: center;
   overflow: hidden;
   padding: 5%;
+  margin-left: 5%;
 }
 
 .card-publicidad,
@@ -148,6 +149,7 @@ body {
     .publicidad-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
+        margin-left: 0;
     }
     .card-publicidad,
     .img-publicidad {
