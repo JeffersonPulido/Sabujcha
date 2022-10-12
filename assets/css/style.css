@@ -219,6 +219,15 @@ body {
     font-family: var(--titulo_producto);
 }
 
+.titleproductext{
+    font-family: var(--titulo);
+}
+
+.titleproductextdesc{
+    font-family: var(--texto);
+    color: var(--tipografia_gris);
+}
+
 .circleSale {
     width: 50px;
     border-radius: 100%;
@@ -234,6 +243,13 @@ body {
 .circleSale p {
     color: #fff;
     font-family: var(--titulo_producto);
+}
+
+/* NAVBAR MOBILE */
+@media (max-width: 768px) {
+    .titleProducts {
+        width: 80%;
+    }
 }
 
 /* SECCION INFO */
