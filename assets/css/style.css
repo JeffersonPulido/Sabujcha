@@ -313,3 +313,59 @@ body {
     outline: none;
   }
 }
+
+/******************* cardsProducts ****************/
+
+section{
+
+    background-image: url("assets/img/bg-2.jpg");
+}
+.boxTitle{
+    display: flex;
+    justify-content: center;
+}
+.cardsContainer{
+    
+    padding: 2rem 0 0 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    justify-content: center;
+
+}
+.card img{
+    width: 100%;
+}
+.img{
+    box-shadow: 0.2px 0.2px 0.2px 2px rgba(211, 208, 208, 0.2);
+    background: white;
+}
+.titleProducts{
+    width: 25%;
+    text-align: center;
+}
+.titleProducts h2{
+    font-family:var(--titulo);
+    font-style: normal;
+    font-size: 23px;
+    color:var(--tipografia_gris);
+}
+.titleProducts p{
+    font-family: var(--texto);
+    color:var(--tipografia_gris);
+}
+.sale{
+    text-decoration: line-through;
+}
+span{
+    color:var(--tipografia_gris);
+}
+h4{ color:var(--tipografia_gris);}
