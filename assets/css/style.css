@@ -278,37 +278,30 @@ body {
     transition: left 0.3s;
     color: var(--tipografia_negro);
   }
-
   .nav-menu-item {
     line-height: 70px;
     color: var(--tipografia_negro);
   }
-
   .nav-menu-link:hover,
   .nav-menu-link_active {
     background: none;
     color: #000000;
   }
-
   .nav-toggle {
     display: block;
   }
-
   .nav-togglecart {
     display: block;
     position: relative;
     right: -2vh;
     font-family: var(--titulo);
   }
-
   .nav-togglecart .cart {
     margin-right: 0;
   }
-
   .nav-menu_visible {
     left: 0;
   }
-
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
@@ -316,40 +309,38 @@ body {
 
 /******************* cardsProducts ****************/
 
-section{
-
-    background-image: url("assets/img/bg-2.jpg");
+.sectionCard{
+    background-image: url("../img/bg-1.jpg");
+    align-items: center;
 }
 .boxTitle{
     display: flex;
     justify-content: center;
 }
 .cardsContainer{
-    
     padding: 2rem 0 0 0 ;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .card{
+    padding: 0;
     display: flex;
     flex-direction: column;
-    background: #ffff;
     width: 200px;
-    height: auto;
     margin: 15px;
-    justify-content: center;
-
 }
 .card img{
     width: 100%;
+    height: 250px;
 }
 .img{
     box-shadow: 0.2px 0.2px 0.2px 2px rgba(211, 208, 208, 0.2);
     background: white;
 }
 .titleProducts{
-    width: 25%;
+    width: 28%;
     text-align: center;
 }
 .titleProducts h2{
@@ -369,3 +360,20 @@ span{
     color:var(--tipografia_gris);
 }
 h4{ color:var(--tipografia_gris);}
+
+.circleSale{
+    width: 50px;
+    border-radius: 100%;
+    background: #529f0f;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20rem;
+    left: 1rem;
+}
+.circleSale p{
+    color: #fff;
+    font-family:var(--titulo_producto);
+
+}
