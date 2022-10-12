@@ -1,0 +1,64 @@
+/*====  FONTS GOOGLE ====*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
+/*==== VARIABLES GLOBALES ====*/
+
+:root {
+  /* COLORES */
+  --tipografia_gris: #575757;
+  --tipografia_negro: #000000;
+  --label: #529f0f;
+  --hover: #529f0f;
+  /* FONTS */
+  --titulo: "Playfair Display", serif;
+  --texto: "Lora", serif;
+  --titulo_producto: "Work Sans", sans-serif;
+}
+
+.text{
+    margin: 0 1rem 0 1rem;
+}
+.textParrafo{
+    color:var(--tipografia_gris);
+}
+.imgBanner{
+    background-image: url(../img/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 15px;
+}
+.boxsubtitle{
+    width: 100%;
+margin: 0;
+padding: 0;
+}
+.boxsubtitle h2{
+    text-decoration: underline;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 990px){
+.imgBanner{
+    background-image: url(../img/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.boxsubtitle{
+   display: flex;
+   justify-content: start;
+   padding:0 10rem 0 11rem;
+}
+.boxsubtitle h2{
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+.cardsContainerProduct{
+    margin: 0;
+    padding: 0;
+}
+}
