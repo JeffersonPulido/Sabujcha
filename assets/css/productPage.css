@@ -83,14 +83,12 @@
         margin: 0;
         padding: 0;
     }
+    /* caja de producto, checkbox */
     .product {
+        padding: 2rem;
         padding: 5px;
-        border: 2px solid red;
         display: flex;
-        justify-content: center;
-    }
-    .img {
-        border: 2px solid red;
+        justify-content: space-around;
     }
     .priceDescrip {
         align-items: flex-start;
@@ -124,11 +122,52 @@
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 15rem;
-        left: 1rem;
+        bottom: 12rem;
+        left: 10rem;
     }
     .saleCardProduc p {
         color: #fff;
         font-family: var(--titulo_producto);
+    }
+    .container {
+        padding: 100px;
+    }
+    .listCheckBox {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 40px;
+    }
+    .listCheckBox ul li {
+        list-style: none;
+    }
+    .card {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    .img {
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+    }
+    .boxCardImg {
+        display: flex;
+        justify-content: center;
+    }
+    .miniatura {
+        width: 13%;
+        height: 83%;
+        margin: 15px;
+        text-align: center;
+    }
+    .miniatura img {
+        width: 50px;
+        height: 65px;
+    }
+    .minImg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
