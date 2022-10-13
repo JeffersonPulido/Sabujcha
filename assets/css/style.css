@@ -346,4 +346,32 @@ body {
     color: white;
     font-family: var(--titulo_producto);
     font-weight: 600;
+    cursor: pointer;
+}
+/* SECCIONES NEWS */
+.title-news {
+    color: var(--tipografia_negro);
+    font-family: var(--titulo);
+    font-weight: 400;
+}
+.fecha-news{
+    margin-top: 5%;
+    font-family: var(--texto);
+    color: var(--hover);
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.description-news{
+    color: var(--tipografia_gris);
+    font-family: var(--texto);
+    text-align: justify;
+    margin-top: 0;
+}
+.read-news{
+    font-family: var(--titulo_producto);
+    text-decoration: underline;
+    color: var(--tipografia_gris);
+    font-size: 13px;
+    font-weight: 600;
 }
