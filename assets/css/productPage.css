@@ -5,60 +5,130 @@
 /*==== VARIABLES GLOBALES ====*/
 
 :root {
-  /* COLORES */
-  --tipografia_gris: #575757;
-  --tipografia_negro: #000000;
-  --label: #529f0f;
-  --hover: #529f0f;
-  /* FONTS */
-  --titulo: "Playfair Display", serif;
-  --texto: "Lora", serif;
-  --titulo_producto: "Work Sans", sans-serif;
+    /* COLORES */
+    --tipografia_gris: #575757;
+    --tipografia_negro: #000000;
+    --label: #529f0f;
+    --hover: #529f0f;
+    /* FONTS */
+    --titulo: "Playfair Display", serif;
+    --texto: "Lora", serif;
+    --titulo_producto: "Work Sans", sans-serif;
 }
 
-.text{
+.text {
     margin: 0 1rem 0 1rem;
 }
-.textParrafo{
-    color:var(--tipografia_gris);
+
+.textParrafo {
+    color: var(--tipografia_gris);
 }
-.imgBanner{
+
+.imgBanner {
     background-image: url(../img/bg-te.jpg);
     background-repeat: no-repeat;
+    background-position: top center;
     background-size: cover;
     height: 400px;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.boxsubtitle{
+
+.textBanner {
+    height: auto;
     width: 100%;
-margin: 0;
-padding: 0;
+    color: #fff;
+    text-align: center;
 }
-.boxsubtitle h2{
+
+.textBanner h1 {
+    font-family: var(--titulo_producto);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.boxsubtitle {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.boxsubtitle h2 {
     text-decoration: underline;
     font-size: 14px;
     margin: 0;
     padding: 0;
 }
-@media only screen and (min-width: 990px){
-.imgBanner{
-    background-image: url(../img/bg-te.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-}
-.boxsubtitle{
-   display: flex;
-   justify-content: start;
-   padding:0 10rem 0 11rem;
-}
-.boxsubtitle h2{
-    text-decoration: underline;
-    margin: 0;
-    padding: 0;
-}
-.cardsContainerProduct{
-    margin: 0;
-    padding: 0;
-}
+
+@media only screen and (min-width: 990px) {
+    .imgBanner {
+        background-image: url(../img/bg-te.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+    .boxsubtitle {
+        display: flex;
+        justify-content: start;
+        padding: 0 10rem 0 11rem;
+    }
+    .boxsubtitle h2 {
+        text-decoration: underline;
+        margin: 0;
+        padding: 0;
+    }
+    .cardsContainerProduct {
+        margin: 0;
+        padding: 0;
+    }
+    .product {
+        padding: 5px;
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+    }
+    .img {
+        border: 2px solid red;
+    }
+    .priceDescrip {
+        align-items: flex-start;
+        width: 580px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    }
+    .textGreen {
+        color: #529f0f;
+    }
+    .textGray {
+        color: var(--tipografia_gris);
+    }
+    .boxqualification {
+        width: 450px;
+        display: flex;
+        justify-content: start;
+    }
+    .boxqualification div {
+        margin: 0 5px 0 5px;
+    }
+    .boxqualification .reviwe {
+        padding-right: 5px;
+        border-right: 1px solid gray;
+    }
+    .saleCardProduc {
+        width: 50px;
+        border-radius: 100%;
+        background: #529f0f;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 15rem;
+        left: 1rem;
+    }
+    .saleCardProduc p {
+        color: #fff;
+        font-family: var(--titulo_producto);
+    }
 }
