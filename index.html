@@ -11,6 +11,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <!--CDN FONTAWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -20,7 +21,7 @@
     <!--==== Navbar ====-->
     <header class="header">
         <nav class="nav">
-            <a href="#" class="logo nav-link"><img src="assets/img/logo.png" alt=""></a>
+            <a href="./index.html" class="logo nav-link"><img src="assets/img/logo.png" alt=""></a>
             <button class="nav-togglecart" aria-label="Abrir menú">
                 <span class="money">USD</span>
                 <i class="fa-solid fa-chevron-down"></i>
@@ -31,7 +32,7 @@
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">HOME</a>
+                    <a href="./index.html" class="nav-menu-link nav-link">HOME</a>
                 </li>
                 <li class="nav-menu-item">
                     <a href="#" class="nav-menu-link nav-link">ABOUT</a>
@@ -153,91 +154,107 @@
         </div>
         <div class="cardsContainer">
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-1.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">BeBe Bloom tea</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
-                <div class="circleSale">
-                    <p><strong> -30%</strong></p>
-                </div>
+                <a href="#modal1">
+                    <div class="img">
+                        <img src="assets/img/product-1.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">BeBe Bloom tea</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                    <div class="circleSale">
+                        <p><strong> -30%</strong></p>
+                    </div>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-3.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Que herbal Tea</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
-                <div class="circleSale">
-                    <p><strong> -60%</strong></p>
-                </div>
+                <a href="#modal2">
+                    <div class="img">
+                        <img src="assets/img/product-3.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Que herbal Tea</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                    <div class="circleSale">
+                        <p><strong> -60%</strong></p>
+                    </div>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-5.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Society Ice Tea</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
+                <a href="#modal3">
+                    <div class="img">
+                        <img src="assets/img/product-5.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Society Ice Tea</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-7.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Best Friend Tea</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
-                <div class="circleSale">
-                    <p><strong> -60%</strong></p>
-                </div>
+                <a href="#modal4">
+                    <div class="img">
+                        <img src="assets/img/product-7.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Best Friend Tea</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                    <div class="circleSale">
+                        <p><strong> -60%</strong></p>
+                    </div>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-2.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Every spice Tea</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
-                <div class="circleSale">
-                    <p><strong> -50%</strong></p>
-                </div>
+                <a href="#modal5">
+                    <div class="img">
+                        <img src="assets/img/product-2.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Every spice Tea</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                    <div class="circleSale">
+                        <p><strong> -50%</strong></p>
+                    </div>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-4.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Tea and Chai</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
+                <a href="#modal6">
+                    <div class="img">
+                        <img src="assets/img/product-4.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Tea and Chai</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-6.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Green Tea Tulsi</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
-                <div class="circleSale">
-                    <p><strong> -40%</strong></p>
-                </div>
+                <a href="#modal7">
+                    <div class="img">
+                        <img src="assets/img/product-6.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Green Tea Tulsi</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                    <div class="circleSale">
+                        <p><strong> -40%</strong></p>
+                    </div>
+                </a>
             </div>
             <div class="card">
-                <div class="img">
-                    <img src="assets/img/product-8.jpg" alt="detalis-l1">
-                </div>
-                <h4 class="title-product">Instant Tea Premix</h4>
-                <span>
-                    <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
-                </span>
+                <a href="#modal8">
+                    <div class="img">
+                        <img src="assets/img/product-8.jpg" alt="detalis-l1">
+                    </div>
+                    <h4 class="title-product">Instant Tea Premix</h4>
+                    <span>
+                        <strong class="price">$100.00</strong> - <span class="sale">$120.00</span>
+                    </span>
+                </a>
             </div>
         </div>
     </section>
@@ -366,6 +383,272 @@
         </div>
     </footer>
     <!-- ==== End Footer ====-->
+    <!-- ==== Modal Productos ====-->
+    <div id="modal1" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l1.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal2" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l2.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal3" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l3.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal4" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l2.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal5" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l1.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal6" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l1.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal7" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l2.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal8" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="contenido-producto">
+                <div class="image-producto">
+                    <img src="assets/img/product-detalis-l4.jpg" class="img-product" alt="">
+                </div>
+                <div class="descripcion-producto">
+                    <div class="title-producto">Dutchman's Breeches</div>
+                    <div class="precio-producto"><span class="price-tachado">$162.00</span> $120.00</div>
+                    <div class="text-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe esse voluptate!</div>
+                    <div class="size">Size*</div>
+                    <select name="" id="" class="select-product">
+                        <option value="S">S</option>
+                        <option value="X">X</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                    </select>
+                    <div class="color">Color*</div>
+                    <div class="input-color1"></div>
+                    <div class="input-color2"></div>
+                    <div class="input-color3"></div>
+                    <div class="cantidad">
+                        <input type="number" min="2" max="10" class="input-cantidad" value="1">
+                        <button class="btn-product">ADD TO CART</button>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-solid fa-check"></i> In stock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==== End Modal Productos ====-->
     <!-- JS -->
     <script src="assets/js/app.js"></script>
 </body>
