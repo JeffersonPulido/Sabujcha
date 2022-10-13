@@ -166,6 +166,9 @@ body {
     justify-content: center;
 }
 
+.cardsContainer a{
+    text-decoration: none;
+}
 .card {
     padding: 0;
     display: flex;
