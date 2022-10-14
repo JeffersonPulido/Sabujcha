@@ -70,16 +70,12 @@
         height: 400px;
     }
     .titleProducts {
-        border: 1px solid green;
-        width: 100%;
+        width: 75%;
         justify-content: start;
+        text-align: justify;
     }
     .boxsubtitle {
-        border: 1px solid red;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 0 10rem 0 11rem;
     }
     .boxsubtitle h2 {
         text-decoration: underline;
