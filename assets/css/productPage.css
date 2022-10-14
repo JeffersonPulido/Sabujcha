@@ -50,7 +50,7 @@
 }
 
 .boxsubtitle {
-    width: 100%;
+    width: 50%;
     margin: 0;
     padding: 0;
 }
@@ -69,9 +69,16 @@
         background-size: cover;
         height: 400px;
     }
-    .boxsubtitle {
-        display: flex;
+    .titleProducts {
+        border: 1px solid green;
+        width: 100%;
         justify-content: start;
+    }
+    .boxsubtitle {
+        border: 1px solid red;
+        width: 100%;
+        display: flex;
+        justify-content: center;
         padding: 0 10rem 0 11rem;
     }
     .boxsubtitle h2 {
@@ -142,9 +149,11 @@
         list-style: none;
     }
     .card {
-        width: 500px;
+        width: 186px;
+        height: auto;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
     .img {
         width: 200px;
