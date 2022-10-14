@@ -1,0 +1,92 @@
+
+/*====  FONTS GOOGLE ====*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
+/*==== VARIABLES GLOBALES ====*/
+
+:root {
+    /* COLORES */
+    --tipografia_gris: #575757;
+    --tipografia_negro: #000000;
+    --label: #529f0f;
+    --hover: #529f0f;
+    /* FONTS */
+    --titulo: "Playfair Display", serif;
+    --texto: "Lora", serif;
+    --titulo_producto: "Work Sans", sans-serif;
+}
+.Marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.Div-hijo{
+    width: 50px;
+
+}
+.Marca1{
+    display: inline-flex;
+    padding: 5px;
+
+}
+.Marca2{
+    width: 170px;
+    display: inline-flex;
+    
+}
+.Marca3{
+
+    display:inline-flex;
+    padding: 5px;
+
+
+}
+.Marca4{
+    
+    display: inline-flex;
+    padding: 5px;
+
+}
+.Marca5{
+   
+    display:inline-flex;
+    padding: 5px;
+  
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.section1 div{
+    display: flex;
+    flex-direction: column;
+
+}
+.section1 h2{
+   
+    padding: 10px 0;
+    font-family: var(--titulo);
+   font-size: 20px;
+    
+}
+a{
+    color: #575757;
+    text-decoration: none;
+    padding: 8px;
+    font-family: var(--texto);
+    font-size:15px;
+}
+.Derechos{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    background:#f3ebeb ;
+}
+.Tete{
+    display: flex;
+    height: fit-content;
+   align-self: center;
+}
