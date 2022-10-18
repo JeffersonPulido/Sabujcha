@@ -210,7 +210,7 @@
         font-size: 28px;
     }
     .modalbox {
-        height: auto;
+        height: 95%;
     }
 }
 @media screen and (min-width: 1800px){
