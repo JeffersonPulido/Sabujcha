@@ -15,7 +15,9 @@
     --texto: "Lora", serif;
     --titulo_producto: "Work Sans", sans-serif;
 }
+@media only screen and (max-width: 600px) {
 
+/* banner */
 .text {
     margin: 0 1rem 0 1rem;
 }
@@ -35,7 +37,7 @@
     align-items: center;
     justify-content: center;
 }
-
+}
 .textBanner {
     height: auto;
     width: 100%;
@@ -61,6 +63,101 @@
     margin: 0;
     padding: 0;
 }
+/* card */
+.minImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.minImg img{
+    width: 70%;
+    height: 60px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+}
+.miniatura{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin:  5px;
+}
+/* section cards */
+.sectionCardProduct{
+    background: #fff;
+    width: 100%;
+}
+.cardProductPage{
+    color: var(--tipografia_gris);
+    width: 100%;
+}
+.cardProductPage img{
+    width: 80%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.saleCardProduc{
+    border-radius: 100%;
+    width: 3rem;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 230px;
+    left: 20px;
+}
+.priceDescrip {
+    margin-bottom: 5rem;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+.btnIcon{
+    display: flex;
+
+}
+.btnIcon img{
+    width: 20px;
+}
+.iconBtn{
+    margin: 0.5rem;
+    padding: 5px 7px 5px 7px;
+    width: 20px;
+    text-align: center;
+}
+.boxGray{
+    background: #918f8f18;
+    border: 1px solid #918f8f18;
+}
+.boxNumber{
+    border: 1px solid rgba(143, 143, 143, 0.411);
+}
+.boxFooter{
+    color: var(--tipografia_gris);
+}
+.optionMain ul{
+    padding-right: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.optionMain ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    color: var(--tipografia_gris);
+}
+
+
+/*--------------------------------------- Destock ------------------------------------------*/
 
 @media only screen and (min-width: 990px) {
     .imgBanner {
@@ -73,6 +170,10 @@
         width: 75%;
         justify-content: start;
         text-align: justify;
+    }
+    .titleProducts h2{
+        font-size: 28px;
+        color: #000000d3;
     }
     .boxsubtitle {
         width: 100%;
@@ -94,6 +195,7 @@
         justify-content: space-around;
     }
     .priceDescrip {
+        margin-bottom: 5rem;
         align-items: flex-start;
         width: 580px;
         padding: 10px;
@@ -126,7 +228,7 @@
         justify-content: center;
         position: relative;
         bottom: 12rem;
-        left: 10rem;
+        left: 1rem;
     }
     .saleCardProduc p {
         color: #fff;
@@ -174,5 +276,22 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .optionMain ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .optionMain ul li{
+        list-style: none;
+        margin: 10px;
+        font-size: 20px;
+        color: var(--tipografia_gris);
+    }
+    .cardProductPage{
+        margin: 35px;
+        color: var(--tipografia_gris);
     }
 }
