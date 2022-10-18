@@ -113,6 +113,7 @@
     left: 20px;
 }
 .priceDescrip {
+    margin-left: 100px;
     margin-bottom: 5rem;
     align-items: flex-start;
     width: 100%;
@@ -263,8 +264,8 @@
         justify-content: center;
     }
     .miniatura {
-        width: 13%;
-        height: 83%;
+        width: 37%;
+        height: 73%;
         margin: 15px;
         text-align: center;
     }
