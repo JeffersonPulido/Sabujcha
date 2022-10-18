@@ -453,7 +453,6 @@ footer .bottom-footer {
         justify-content: start;
     }
     footer .bottom-footer {
-        border: 1px solid red;
         display: block;
     }
     .copyright{
