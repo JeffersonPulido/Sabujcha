@@ -18,6 +18,7 @@
 </head>
 
 <body>
+   
     <!--==== Navbar ====-->
     <header class="header">
         <nav class="nav">
@@ -63,7 +64,7 @@
     <div class="container">
         <!--==== descripcProducto ====-->
         <section class="product">
-            <div class="card">
+            <div class="card cardContainer">
                 <!-- card -->
                 <div class="boxCardImg">
                     <div class="img">
@@ -80,10 +81,10 @@
                     <div class="img miniatura">
                         <img src="assets/img/product-7.jpg" alt="detalis-l1">
                     </div>
-                    <div class="img miniatura">
+                    <div class="img miniatura disolve">
                         <img src="assets/img/product-detalis-l3.jpg" alt="detalis-l1">
                     </div>
-                    <div class="img miniatura">
+                    <div class="img miniatura disolve">
                         <img src="assets/img/product-6.jpg" alt="detalis-l1">
                     </div>
                 </div>
@@ -122,22 +123,52 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="btnIcon">
+                    <div class="iconBtn">
+                        Qty:
+                     </div>
+                    <div class="iconBtn boxNumber">
+                        02
+                    </div>
+                    <div class="iconBtn boxGray">
+                        <img src="assets/img/carritoCompras.png" alt="Carrito">
+                    </div>
+                    <div class="iconBtn boxGray">
+                        <img src="assets/img/corazon.png" alt="like">
+                    </div>
+                </div>
+
+                <div class="boxFooter">
+                    <p>
+                        Catergories: Green, Herbal, Loose, Mate, Organic
+                        <br>
+                        Tags: Oolong, Pu'erh, Dark, Special
+                    </p>
+                </div>
             </div>
             <!-- end description -->
         </section>
         <!--==== End descripcProducto ====-->
         <!--==== containtText ====-->
         <section class="contenProduct">
+            <div class="optionMain">
+                <ul>
+                    <li>Description</li>
+                    <li>Tags</li>
+                    <li>Review</li>
+                </ul>
+            </div>
             <div class="text">
 
                 <p class="textParrafo">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
                     dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
                     claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.
                     <br><br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, pariatur ad. Aperiam deserunt id praesentium, aliquam quae dignissimos tenetur sequi expedita fuga quos iste ullam aliquid recusandae animi quo consectetur!
-                    <br><br><br> -Typi non habent claritatem insitam
-                    <br><br> -Est usus legentis in iis qui facit eorum claritatem.
-                    <br><br> -Investigationes demonstraverunt lectores legere me lius quod ii saepius.
-                    <br><br> -Claritas est etiam processus dynamicus, qui sequi mutationem consuetudium lectores.
+                    <br><br><br> - Typi non habent claritatem insitam
+                    <br><br> - Est usus legentis in iis qui facit eorum claritatem.
+                    <br><br> - Investigationes demonstraverunt lectores legere me lius quod ii saepius.
+                    <br><br> - Claritas est etiam processus dynamicus, qui sequi mutationem consuetudium lectores.
                 </p>
             </div>
         </section>
@@ -151,7 +182,7 @@
             </div>
             <div class="cardsContainer cardsContainerProduct">
 
-                <div class="card">
+                <div class="card cardProductPage">
                     <div class="img">
                         <img src="assets/img/product-detalis-l1.jpg" alt="detalis-l1">
                     </div>
@@ -164,7 +195,7 @@
                     </div> -->
                 </div>
 
-                <div class="card">
+                <div class="card cardProductPage">
                     <div class="img">
                         <img src="assets/img/product-2.jpg" alt="detalis-l1">
                     </div>
@@ -174,7 +205,7 @@
                     </span>
                 </div>
 
-                <div class="card">
+                <div class="card cardProductPage">
                     <div class="img">
                         <img src="assets/img/product-3.jpg" alt="detalis-l1">
                     </div>
@@ -186,7 +217,7 @@
                         <p><strong> -30%</strong></p>
                     </div> -->
                 </div>
-                <div class="card">
+                <div class="card cardProductPage">
                     <div class="img">
                         <img src="assets/img/product-4.jpg" alt="detalis-l1">
                     </div>
@@ -199,6 +230,72 @@
         </section>
         <!--==== End CardsProducts ====-->
     </div>
+     <!-- ==== Footer ====-->
+     <footer>
+        <div class="footer-container">
+            <div class="wrap-footer">
+                <div class="row">
+                    <div class="col-1-3 col-footer-1">
+                        <div class="wrap-col">
+                            <h3 class="widget-title">My Account</h3>
+                            <p>My Account</p>
+                            <p>Order History</p>
+                            <p>WishList</p>
+                            <p>Newsletter</p>
+                            <p>International Orders</p>
+                        </div>
+                    </div>
+                    <div class="col-1-3 col-footer-1">
+                        <div class="wrap-col">
+                            <h3 class="widget-title">Information</h3>
+                            <p>About Us</p>
+                            <p>Delivery Information</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms & Condition</p>
+                            <p>Customer Service</p>
+                            <p>Return Policy</p>
+                        </div>
+                    </div>
+                    <div class="col-1-3 col-footer-1">
+                        <div class="wrap-col">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <p>Support Center</p>
+                            <p>Shipping</p>
+                            <p>Help</p>
+                            <p>FAQS</p>
+                        </div>
+                    </div>
+                    <div class="col-1-3 col-footer-1">
+                        <div class="wrap-col">
+                            <h3 class="widget-title">Contact Us</h3>
+                            <div class="row">
+                                <p>Your address goes here</p>
+                                <p>
+                                    0123456789
+                                    <br>
+                                    0123456789
+                                </p>
+                                <p>
+                                    demo@example.com
+                                    <br>
+                                    demo@example.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="copyright">
+                    © 2022 <b>SabujCha</b> Made With <span class="heart">❤</span> By <b>HasThemes - Prográmate EducaMas</b>
+                </div>
+                <div class="payment">
+                    <img src="assets/img/payment.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==== End Footer ====-->
     <!-- JS -->
     <script src="assets/js/app.js"></script>
 </body>
