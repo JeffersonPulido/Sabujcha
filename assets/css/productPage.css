@@ -30,7 +30,6 @@
     }
     
     .cardProductPage img {
-        border: 1px solid red;
         width: 100%;
     }
     .imgBanner {
@@ -44,6 +43,10 @@
         align-items: center;
         justify-content: center;
     }
+    .textBanner p {
+        font-family: var(--titulo_producto);
+        font-size: 20px;
+    }
 }
 
 .textBanner {
@@ -53,10 +56,18 @@
     text-align: center;
 }
 
+.optionActive{
+    border-bottom: 2px solid var(--hover);
+}
+
 .textBanner h1 {
     font-family: var(--titulo_producto);
     font-size: 35px;
     font-weight: 500;
+}
+
+.textBanner p {
+    font-family: var(--titulo_producto);
 }
 
 .boxsubtitle {
@@ -239,6 +250,7 @@
     margin: 10px;
     font-size: 20px;
     color: var(--tipografia_gris);
+    cursor: pointer;
 }
 
 ul li {
