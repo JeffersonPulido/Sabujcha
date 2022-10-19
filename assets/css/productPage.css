@@ -15,29 +15,31 @@
     --texto: "Lora", serif;
     --titulo_producto: "Work Sans", sans-serif;
 }
+
 @media only screen and (max-width: 600px) {
-
-/* banner */
-.text {
-    margin: 0 1rem 0 1rem;
+    .container {
+        padding: 1rem;
+    }
+    /* banner */
+    .text {
+        margin: 0 1rem 0 1rem;
+    }
+    .textParrafo {
+        color: var(--tipografia_gris);
+    }
+    .imgBanner {
+        background-image: url(../img/bg-te.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        height: 400px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.textParrafo {
-    color: var(--tipografia_gris);
-}
-
-.imgBanner {
-    background-image: url(../img/bg-te.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    height: 400px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-}
 .textBanner {
     height: auto;
     width: 100%;
@@ -63,47 +65,59 @@
     margin: 0;
     padding: 0;
 }
+
+
 /* card */
-.minImg{
+
+.minImg {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.minImg img{
+
+.minImg img {
     width: 70%;
     height: 60px;
 }
 
-.cardContainer{
+.cardContainer {
     display: flex;
     flex-direction: column;
     width: 90%;
     justify-content: center;
 }
-.miniatura{
+
+.miniatura {
     height: auto;
     display: flex;
     justify-content: center;
-    margin:  5px;
+    margin: 5px;
 }
+
+
 /* section cards */
-.sectionCardProduct{
+
+.sectionCardProduct {
     background: #fff;
     width: 100%;
 }
-.cardProductPage{
+
+.cardProductPage {
     color: var(--tipografia_gris);
     width: 100%;
 }
-.cardProductPage img{
+
+.cardProductPage img {
     width: 80%;
 }
-.img{
+
+.img {
     display: flex;
     justify-content: center;
 }
 
-.saleCardProduc{
+.saleCardProduc {
+    background: #529f0f;
     border-radius: 100%;
     width: 3rem;
     text-align: center;
@@ -112,48 +126,68 @@
     bottom: 230px;
     left: 20px;
 }
+
 .priceDescrip {
-    margin-left: 100px;
     margin-bottom: 5rem;
     align-items: flex-start;
     width: 100%;
     padding: 10px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.219);
 }
-.btnIcon{
-    display: flex;
 
+.btnIcon {
+    display: flex;
 }
-.btnIcon img{
+
+.btnIcon img {
     width: 20px;
 }
-.iconBtn{
+
+.iconBtn {
     margin: 0.5rem;
     padding: 5px 7px 5px 7px;
     width: 20px;
     text-align: center;
 }
-.boxGray{
+
+.boxGray {
     background: #918f8f18;
     border: 1px solid #918f8f18;
 }
-.boxNumber{
+
+.boxNumber {
     border: 1px solid rgba(143, 143, 143, 0.411);
 }
-.boxFooter{
+
+.boxFooter {
     color: var(--tipografia_gris);
 }
-.optionMain ul{
+
+.optionMain ul {
     padding-right: 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.optionMain ul li{
+.optionMain ul li {
     list-style: none;
     margin: 10px;
     font-size: 20px;
+    color: var(--tipografia_gris);
+}
+
+ul li {
+    list-style: none;
+}
+
+.listCheckBox {
+    width: 100%;
+    position: relative;
+    right: 44px;
+}
+
+body {
     color: var(--tipografia_gris);
 }
 
@@ -166,25 +200,28 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
+        display: flex;
+        align-items: center;
     }
     .titleProducts {
         width: 75%;
         justify-content: start;
         text-align: justify;
     }
-    .titleProducts h2{
+    .titleProducts h2 {
         font-size: 28px;
         color: #000000d3;
     }
     .boxsubtitle {
         width: 100%;
     }
+    /* .textBanner {
+        padding-top: 60px;
+        height: 200px;
+        border: 1px solid red;
+    } */
     .boxsubtitle h2 {
         text-decoration: underline;
-        margin: 0;
-        padding: 0;
-    }
-    .cardsContainerProduct {
         margin: 0;
         padding: 0;
     }
@@ -278,21 +315,29 @@
         flex-direction: row;
         justify-content: center;
     }
-
-    .optionMain ul{
+    .optionMain ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
-    .optionMain ul li{
+    .optionMain ul li {
         list-style: none;
         margin: 10px;
         font-size: 20px;
         color: var(--tipografia_gris);
     }
-    .cardProductPage{
+    .cardProductPage {
         margin: 35px;
         color: var(--tipografia_gris);
+    }
+    .circleSale {
+        position: relative;
+        bottom: 100px;
+    }
+    .cardSection {
+        border: 5px soli orangered;
+    }
+    .cardSection {
+        position: absolute;
     }
 }
