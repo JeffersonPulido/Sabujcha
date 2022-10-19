@@ -26,6 +26,12 @@
     }
     .textParrafo {
         color: var(--tipografia_gris);
+        font-family: var(--texto);
+    }
+    
+    .cardProductPage img {
+        border: 1px solid red;
+        width: 100%;
     }
     .imgBanner {
         background-image: url(../img/bg-te.jpg);
@@ -133,6 +139,11 @@
     width: 100%;
     padding: 10px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    font-family: var(--titulo);
+}
+
+.contenProduct{
+    font-family: var(--texto);
 }
 
 .btnIcon {
@@ -163,6 +174,59 @@
     color: var(--tipografia_gris);
 }
 
+.socialNetworks{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.btntwitter{
+    background-color: #4CA7EA;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.btntwitter:hover{
+    background-color: #2a7ab3;
+}
+.btnfacebook{
+    background-color: #495E9A;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.btnfacebook:hover{
+    background-color: #0f2e83;
+}
+.btngoogle{
+    background-color: #CF563F;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.btngoogle:hover{
+    background-color: #912d1a;
+}
+.btnpinterest{
+    background-color: #BD342C;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.btnpinterest:hover{
+    background-color: #9e0b03;
+}
 .optionMain ul {
     padding-right: 45px;
     display: flex;
@@ -209,6 +273,7 @@ body {
         text-align: justify;
     }
     .titleProducts h2 {
+        font-family: var(--titulo);
         font-size: 28px;
         color: #000000d3;
     }
@@ -330,6 +395,7 @@ body {
         margin: 35px;
         color: var(--tipografia_gris);
     }
+    
     .circleSale {
         position: relative;
         bottom: 100px;
@@ -340,4 +406,12 @@ body {
     .cardSection {
         position: absolute;
     }
+}
+
+.fa-star{
+    color: var(--hover)
+}
+
+.inactiva{
+    color: gray;
 }
